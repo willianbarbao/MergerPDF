@@ -1,30 +1,21 @@
 # MergerPDF
-Comentários:
+# Comentários
 
 •import PyPDF2: Aqui, a biblioteca PyPDF2 é importada, permitindo a manipulação de arquivos PDF.
-
 •Import os: Aqui, a biblioteca os é importada para lidar com operações relacionadas ao sistema, como listar arquivos em diretórios.
-
 •merger = PyPDF2.PdfMerger(): Um objeto PdfMerger é criado a partir da biblioteca PyPDF2. Esse objeto será usado para mesclar os arquivos PDF.
-
 •lista_arquivos = os.listdir("arquivos"): A função os.listdir() é usada para listar todos os arquivos e diretórios no diretório "arquivos". A lista resultante contém os nomes de todos os itens no diretório.
-
 •lista_arquivos.sort(): A lista de arquivos é ordenada alfabeticamente, o que pode ser útil para garantir uma ordem específica durante a mesclagem.
-
 •print(lista_arquivos): Imprime a lista de arquivos na saída. Isso pode ser útil para verificar quais arquivos foram identificados no diretório.
-
 •O loop for arquivo in lista_arquivos: itera sobre cada arquivo na lista de arquivos.
-
 •if ".pdf" in arquivo:: Esta linha verifica se o nome do arquivo contém a substring ".pdf", o que indica que é um arquivo PDF. Isso ajuda a evitar a inclusão de outros tipos de arquivos na mesclagem.
-
 •merger.append(f"arquivos/{arquivo}"): Se o arquivo for um PDF, ele é adicionado à operação de mesclagem usando o método append() do objeto PdfMerger.
-
 •merger.write("PDF Final.pdf"): Após iterar sobre todos os arquivos PDF na lista, essa linha escreve o resultado da mesclagem em um novo arquivo chamado "PDF Final.pdf".
 
-♦Referência
+# Referência
 Este código é simples e foi feito com a consulta no github/ youtube, testado com arquivos que eu tinha no computador e funcionando perfeitamente.
 
-♦Conclusão
+# Conclusão
 Isso pode ajudar e vir a ser implantado em um portal hmtl/css/js para uso comercial e ajuda nos seguintes fatores:
 Organização de Documentos: Muitas vezes, os documentos relacionados estão espalhados em vários arquivos PDF.
 Facilita a Compartilhamento. 
