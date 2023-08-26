@@ -1,8 +1,5 @@
 # MergerPDF
 
-# Referência
-Este código é simples e foi feito com a consulta no github/ youtube, testado com arquivos que eu tinha no computador e funcionando perfeitamente.
-
 # Conclusão
 Isso pode ajudar e vir a ser implantado em um portal hmtl/css/js para uso comercial e ajuda nos seguintes fatores:
 Organização de Documentos: Muitas vezes, os documentos relacionados estão espalhados em vários arquivos PDF.
